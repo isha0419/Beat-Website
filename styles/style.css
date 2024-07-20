@@ -1,0 +1,370 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+/* removing underline */
+a{
+    text-decoration: none;
+}
+.navbar ul li{
+    list-style: none;
+}
+.logo{
+    padding-left:20%;
+    padding-top: 30px;
+    cursor: pointer;
+}
+/* aligns logo and menu bar in row  */
+.navbar{
+    display:flex;
+    width: 100%;
+   align-items:center;
+    justify-content: space-between;
+}
+/* list items in row */
+.navbar ul{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20%;
+}
+/* styling navbar items */
+.navbar ul li{
+    font-size: 15px;
+    font-weight: 400;
+}
+/* shop button */
+.shop{
+    padding: 10px 20px;
+    background-color: #1e1e21;
+    font-weight: 300;
+    border-radius: 5px;
+    border: 1px dotted #80808098;
+    cursor: pointer;
+}
+/* ............................. */
+/* when hovered on shop button */
+/* ....................... */
+.shop:hover{
+    font-size: 15px;
+    font-weight: 700;
+   background-color: #161515d3;
+   border: 1px solid #00ffff;
+}
+/* ...................... */
+main{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 30px;
+}
+img[alt="mainImage"]
+{
+    width:200px;
+    top: -150px;
+    left: 300px;
+    position: relative;
+}
+/* position right part of main */
+.main_right{
+    margin-left: 350px;
+}
+
+img[alt="onEar"]{
+    margin-left: 60px;
+}
+/* beats 3 */
+.main_right h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+/* overview */
+.main_right h3{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* overview description */
+.main_right p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align:left;
+    width: 350px;
+    /* word-spacing: 2px; */
+}
+/* shopping bag  */
+.shopping-bag-section{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    background-color: #1e1e21;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* replacing bg color tp transparent  */
+.shopping-bag-section img{
+    background-color: transparent;
+    font-size: 20px;
+}
+.shopping-bag-section p{
+    background-color: transparent;
+    font-weight: 500;
+}
+.shopping-bag-section span{
+    background-color: transparent;
+    font-weight: 900;
+}
+/* ........................... */
+/*  when hovered on shopping bag  */
+/*  .............................*/
+.shopping-bag-section:hover{
+    font-size: 20px;
+    font-weight: 700;
+   background-color: #161515d3;
+   border: 1px solid #00ffff;
+}
+/* ........................... */
+
+
+/* aligning socials */
+.socials div{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: relative;
+    /* top bottom left right */
+    padding: 0 50px;
+    top:-20px;
+    margin-bottom: 30px;
+}
+/* styling specs */
+.specifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.specification-list{
+    display: flex;
+}
+.specification-items div{
+    margin-bottom: 20px;
+}
+img[alt="specsImage"]{
+    margin-left: 70px;
+}
+#bluetooth,#mic{
+    margin-left: 30px;
+}
+/* styling case */
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.case-hero-section{
+    display: flex;
+    /* y axxis */
+    align-items: center;
+    margin-top: 70px;
+    gap: 60px;
+}
+img[alt="caseImage"]{
+    height: 400px;
+}
+/* styling description */
+.case-hero-section p{
+    width: 200px;
+}
+/* styling more info button */
+.more-info{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: #161515d3;
+    font-weight: 500;
+    border-radius: 5px;
+    gap: 10px;
+    cursor: pointer;
+}
+.more-info img{
+    background-color: transparent;
+}
+.more-info p{
+    background-color: transparent;
+}
+/* when hovered  on more info*/
+.more-info:hover{
+    background-color: #161515d3;
+    border: 1px solid #00ffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.buy-product{
+    display: flex;
+    align-items: center;
+    height:60%;
+    width: 80%;
+    background-color:#1e1e21 ;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10%;
+    padding: 20px;
+    gap: 20px;
+}
+.buy-product img{
+    background-color: transparent;
+
+}
+.buy-product p{
+    background-color:#1e1e21;
+   padding-bottom: 10px;
+}
+.buy-product h3{
+    background-color:#1e1e21;
+   padding-bottom: 10px;
+}
+.buy-button{
+    background-color: #1e1e21;
+}
+.left{
+    width: 250px;
+}
+.buy-button{
+    display: flex;
+    padding: 10px 5px;
+    background-color: #000000;
+    border-radius:10px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    cursor: pointer;
+}
+/* when hovered on buy now */
+.buy-button:hover{
+    font-size: 20px;
+    font-weight: 700;
+   background-color: #161515d3;
+   border: 1px solid #00ffff;
+}
+/* --------------- */
+/* styling product cards */
+/* ------------------- */
+.logo{
+    margin-left: -200px;
+    margin-bottom: 40px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.product-lists{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 80px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* styling product cards */
+.product-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height:180px;
+    width:130px;
+    background:#1e1e21;
+    border: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-img,
+.product-card p,
+.product-card span,
+.product-card img,
+.product-card div {
+  background-color: transparent;
+}
+
+img[alt="product-image"]{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    left: 28px;
+    top: -35px;
+}
+.product-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    padding-top:100px;
+    padding-left: 20px;
+}
+img[alt="shoppingBagstyle"]{
+    position:relative;
+    height: 35px;
+    width: 35px;
+    background-color:#000000;
+    margin-left:7px;
+    margin-top:10px;
+    padding:2px;
+    cursor: pointer;
+}
+/* styling footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:50px;
+    
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    margin-top:10px;
+    height:50px;
+    width: 300px;
+    padding:15px;
+    border-radius: 2px;
+    background-color: #1e1e21;
+}
+.email p{
+    background-color: transparent;
+}
+.subscribe{
+    padding: 2px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.socials ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:10px;
+}
+.socials ul li{
+    list-style: none;
+}
+.up-arrow{
+    margin-right: 0%;
+}
+/* when hovered */
+.subscribe:hover{
+    font-weight: 700;
+   background-color: #161515d3;
+   border: 1px solid #00ffff;
+}
